@@ -1,0 +1,48 @@
+body {
+	background: #ddd;
+	font-size: 20px;
+}
+
+.container{
+	width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+	position: relative;
+    padding-top: 50px;
+}
+
+.bar{
+	position: absolute;
+    top: -33px;
+    background: #03a9f4;
+    color: #fff;
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+
+.bar a{
+	font-size: 19px;
+}
+.group { text-align:center }
+.group input, .group textarea{
+	padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #673ab7;
+	width: 50vw;
+	margin-top: 15px;
+}
+
+.group.send input{
+	background: #9c27b0;
+    color: #fff;
+	cursor: pointer;
+}
+
+.flash{
+	text-align: center;
+    background: green;
+    color: #fff;
+    padding: 8px;
+}
